@@ -8,7 +8,7 @@ export default function NavBar() {
   const pathname = usePathname();
 
   return (
-    <nav className="w-full text-xs md:text-base lg:text-base bg-black p-4 flex items-center justify-between h-20">
+    <nav className="w-full text-xs md:text-base lg:text-base bg-blue-500 p-4 flex items-center justify-between h-20">
       {" "}
       {/* Adjust height as needed */}
       <Image src="/logo.jpeg" alt="Logo" width={50} height={50} />
